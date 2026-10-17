@@ -7,8 +7,7 @@ Unsupervised 2D signal denoising based on a Mixture-of-Experts (MoE) model. The 
 MoE/
 ├── MoE.py                 # Main script: model building, training, inference and evaluation
 ├── utils.py               # Patching and reconstruction utilities
-├── data/
-│   └── sigmoid.mat        # Example data
+├── sigmoid.mat            # Example data
 └── tools/
     ├── Step1_Patching_3D.m  # MATLAB script for 3D data patching
     └── yc_patch3d.m         # MATLAB 3D patching function
